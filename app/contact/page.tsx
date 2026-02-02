@@ -52,8 +52,8 @@ export default function ContactPage() {
                             </div>
                             <h3 className="text-xl font-bold mb-3">Location</h3>
                             <p className="text-gray-300 text-sm mb-2">Campus Address</p>
-                            <p className="text-white">Nedika Hope Schools</p>
-                            <p className="text-gray-300 text-sm mt-2">Address details available upon request</p>
+                            <p className="text-white">Old Malindi Rd, Mombasa</p>
+                            <p className="text-gray-300 text-sm mt-2">2P34+FH Mombasa</p>
                         </div>
                         <div className="bg-navy text-white p-6 rounded-xl text-center hover:shadow-xl transition-shadow">
                             <div className="bg-gold w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -332,23 +332,24 @@ export default function ContactPage() {
                 <div className="max-w-7xl mx-auto px-4">
                     <h2 className="text-4xl font-bold text-navy text-center mb-12">Find Us</h2>
                     <div className="grid md:grid-cols-2 gap-12 items-center">
-                        <div className="relative h-[400px] rounded-xl overflow-hidden shadow-xl bg-gray-300 flex items-center justify-center">
-                            <Image 
-                                src="/unnamed (1).png"
-                                alt="School Campus Location"
-                                fill
-                                className="object-cover"
-                            />
-                            <div className="absolute inset-0 bg-navy/60 flex items-center justify-center">
-                                <div className="text-center text-white p-8">
-                                    <MapPin className="w-16 h-16 mx-auto mb-4 text-gold" />
-                                    <p className="text-xl font-bold mb-2">Campus Location</p>
-                                    <p className="text-gray-200">Interactive map available soon</p>
-                                </div>
-                            </div>
-                        </div>
+                    <div className="relative h-[400px] rounded-xl overflow-hidden shadow-xl">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3979.8246844454433!2d39.66407!3d-4.043747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x18400a5d8e9e9e9d%3A0x1234567890abcdef!2sOld%20Malindi%20Rd%2C%20Mombasa!5e0!3m2!1sen!2ske!4v1234567890"
+                            width="100%"
+                            height="100%"
+                            style={{ border: 0 }}
+                            allowFullScreen={true}
+                            loading="lazy"
+                            referrerPolicy="no-referrer-when-downgrade"
+                        ></iframe>
+                    </div>
                         <div>
                             <h3 className="text-3xl font-bold text-navy mb-6">How to Reach Us</h3>
+                            <div className="mb-6 bg-gold p-4 rounded-lg">
+                                <p className="text-navy font-bold mb-2">📍 Our Location</p>
+                                <p className="text-navy">Old Malindi Rd, Mombasa, Kenya</p>
+                                <p className="text-sm text-navy/80">Google Plus Code: 2P34+FH Mombasa</p>
+                            </div>
                             <div className="space-y-6">
                                 <div className="flex items-start">
                                     <div className="bg-gold rounded-full p-3 mr-4">
