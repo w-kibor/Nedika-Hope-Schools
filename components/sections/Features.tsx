@@ -40,10 +40,10 @@ export function Features() {
                             transition={{ duration: 0.5, delay: index * 0.1 }}
                             className="text-center group"
                         >
-                            <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-blue-50 text-royal-blue mb-6 group-hover:bg-royal-blue group-hover:text-gold transition-colors duration-300">
+                            <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-soft-gray text-crimson mb-6 group-hover:bg-navy group-hover:text-gold transition-colors duration-300 shadow-sm">
                                 <feature.icon className="w-8 h-8" />
                             </div>
-                            <h3 className="text-lg font-bold text-gray-900 mb-2">{feature.title}</h3>
+                            <h3 className="text-lg font-bold text-navy mb-2">{feature.title}</h3>
                             <p className="text-gray-600 text-sm leading-relaxed">
                                 {feature.description}
                             </p>

@@ -6,7 +6,7 @@ import { Calendar } from 'lucide-react';
 
 export function EnrollmentBanner() {
     return (
-        <section className="bg-maroon py-16 text-white relative overflow-hidden">
+        <section className="bg-navy py-16 text-white relative overflow-hidden border-t-4 border-crimson">
             {/* Background Pattern */}
             <div className="absolute inset-0 opacity-10 pointer-events-none">
                 <div className="absolute -left-10 -bottom-10 w-64 h-64 bg-white rounded-full mix-blend-overlay blur-3xl"></div>
@@ -27,12 +27,12 @@ export function EnrollmentBanner() {
                     <h2 className="text-4xl md:text-5xl font-bold font-serif mb-6 leading-tight">
                         Enroll for the 2026 Academic Year
                     </h2>
-                    <p className="text-lg text-blue-100 max-w-2xl mx-auto mb-10">
+                    <p className="text-lg text-gray-200 max-w-2xl mx-auto mb-10">
                         Secure your child's future at Nedika Hope Schools. Limited spaces available across all campuses.
                     </p>
                     <Link
                         href="/admissions"
-                        className="inline-block bg-gold text-maroon hover:bg-white px-10 py-4 rounded-full font-bold text-xl transition-all shadow-xl transform hover:scale-105"
+                        className="inline-block bg-gold text-navy hover:bg-white px-10 py-4 rounded-full font-bold text-xl transition-all shadow-xl transform hover:scale-105"
                     >
                         Register Now
                     </Link>

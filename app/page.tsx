@@ -12,7 +12,7 @@ export default function Home() {
       <EnrollmentBanner />
 
       {/* Footer Placeholder for now */}
-      <footer className="bg-gray-900 text-white py-12 text-center text-sm text-gray-400">
+      <footer className="bg-navy text-white py-12 text-center text-sm text-gray-400">
         <div className="max-w-7xl mx-auto px-4">
           <p>&copy; {new Date().getFullYear()} Nedika Hope Schools. All rights reserved.</p>
         </div>

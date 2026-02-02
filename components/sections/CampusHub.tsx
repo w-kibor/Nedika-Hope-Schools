@@ -9,7 +9,7 @@ const branches = [
         title: 'Nedika Academy',
         subtitle: 'Early Years & Primary',
         description: 'Laying a strong foundation for lifelong learning with a focus on holistic development.',
-        color: 'bg-royal-blue',
+        color: 'bg-navy',
         icon: Users,
         href: '/academy',
         delay: 0.2,
@@ -18,7 +18,7 @@ const branches = [
         title: 'Junior Secondary',
         subtitle: 'Grades 7 - 9',
         description: 'Empowering students to explore new horizons and develop critical thinking skills.',
-        color: 'bg-maroon',
+        color: 'bg-crimson',
         icon: GraduationCap,
         href: '/junior-secondary',
         delay: 0.4,
@@ -27,7 +27,7 @@ const branches = [
         title: 'High School',
         subtitle: 'Grades 10 - 12',
         description: 'Preparing leaders for the future with rigorous academics and character building.',
-        color: 'bg-royal-blue', // Repeating royal blue or could be alternate
+        color: 'bg-navy', // Repeating navy for consistency
         icon: GraduationCap,
         href: '/high-school',
         delay: 0.6,
@@ -36,13 +36,13 @@ const branches = [
 
 export function CampusHub() {
     return (
-        <section id="campus-hub" className="py-24 bg-gray-50">
+        <section id="campus-hub" className="py-24 bg-soft-gray">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-16">
-                    <h2 className="text-3xl md:text-4xl font-bold text-royal-blue font-serif mb-4">
+                    <h2 className="text-3xl md:text-4xl font-bold text-navy font-serif mb-4">
                         Our Campuses
                     </h2>
-                    <div className="h-1 w-24 bg-maroon mx-auto rounded-full"></div>
+                    <div className="h-1 w-24 bg-crimson mx-auto rounded-full"></div>
                     <p className="mt-4 text-gray-600 max-w-2xl mx-auto">
                         Choose the right path for your child's education journey.
                     </p>
@@ -57,7 +57,7 @@ export function CampusHub() {
                             viewport={{ once: true }}
                             transition={{ duration: 0.5, delay: branch.delay }}
                             whileHover={{ y: -10 }}
-                            className="bg-white rounded-2xl shadow-xl overflow-hidden group hover:shadow-2xl transition-all duration-300"
+                            className="bg-white rounded-2xl shadow-xl overflow-hidden group hover:shadow-2xl transition-all duration-300 border border-gray-100"
                         >
                             <div className={`h-32 ${branch.color} relative p-6 flex items-center justify-center overflow-hidden`}>
                                 <branch.icon className="text-white/20 w-32 h-32 absolute -right-6 -bottom-6 transform rotate-12 group-hover:scale-110 transition-transform duration-500" />
@@ -65,8 +65,8 @@ export function CampusHub() {
                             </div>
 
                             <div className="p-8">
-                                <h3 className="text-xl font-bold text-gray-900 mb-1">{branch.title}</h3>
-                                <span className="inline-block px-3 py-1 bg-gray-100 text-maroon text-xs font-bold rounded-full mb-4 uppercase tracking-wide">
+                                <h3 className="text-xl font-bold text-[#002147] mb-1">{branch.title}</h3>
+                                <span className="inline-block px-3 py-1 bg-gray-100 text-[#DC143C] text-xs font-bold rounded-full mb-4 uppercase tracking-wide">
                                     {branch.subtitle}
                                 </span>
                                 <p className="text-gray-600 mb-6 line-clamp-3">
@@ -74,7 +74,7 @@ export function CampusHub() {
                                 </p>
                                 <Link
                                     href={branch.href}
-                                    className="inline-flex items-center text-royal-blue font-bold hover:text-maroon transition-colors"
+                                    className="inline-flex items-center text-[#002147] font-bold hover:text-gold transition-colors"
                                 >
                                     Learn More <ChevronRight className="ml-1 w-4 h-4" />
                                 </Link>
