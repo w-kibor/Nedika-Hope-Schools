@@ -17,6 +17,16 @@ export default function JuniorSecondaryPage() {
                 </div>
                 <div className="relative z-10 h-full flex items-center justify-center text-center px-4">
                     <div className="max-w-4xl">
+                        <div className="mb-6 flex justify-center">
+                            <div className="relative w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden shadow-lg">
+                                <Image 
+                                    src="/JSS logo.jpeg"
+                                    alt="Nedika Junior Secondary Logo"
+                                    fill
+                                    className="object-cover"
+                                />
+                            </div>
+                        </div>
                         <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">Nedika Junior Secondary</h1>
                         <p className="text-2xl text-gold font-semibold mb-4">Building Strong Foundations for Success</p>
                         <p className="text-xl text-gray-200">JSS 1 - JSS 3 (Ages 11-14)</p>

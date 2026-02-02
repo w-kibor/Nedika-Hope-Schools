@@ -17,6 +17,16 @@ export default function HighSchoolPage() {
                 </div>
                 <div className="relative z-10 h-full flex items-center justify-center text-center px-4">
                     <div className="max-w-4xl">
+                        <div className="mb-6 flex justify-center">
+                            <div className="relative w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden shadow-lg">
+                                <Image 
+                                    src="/high school logo.jpeg"
+                                    alt="Nedika High School Logo"
+                                    fill
+                                    className="object-cover"
+                                />
+                            </div>
+                        </div>
                         <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">Nedika Hope High School</h1>
                         <p className="text-2xl text-gold font-semibold mb-4">Excellence in Senior Secondary Education</p>
                         <p className="text-xl text-gray-200">SHS 1 - SHS 3 (Ages 15-18)</p>
