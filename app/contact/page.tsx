@@ -32,9 +32,9 @@ export default function ContactPage() {
                             </div>
                             <h3 className="text-xl font-bold mb-3">Phone</h3>
                             <p className="text-gray-300 text-sm mb-2">Main Line</p>
-                            <p className="text-white font-semibold">+233 XX XXX XXXX</p>
+                            <p className="text-white font-semibold">+254 793 772 662</p>
                             <p className="text-gray-300 text-sm mt-3 mb-2">Admissions</p>
-                            <p className="text-white font-semibold">+233 XX XXX XXXX</p>
+                            <p className="text-white font-semibold">+254 11 5959 538</p>
                         </div>
                         <div className="bg-navy text-white p-6 rounded-xl text-center hover:shadow-xl transition-shadow">
                             <div className="bg-gold w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -42,9 +42,9 @@ export default function ContactPage() {
                             </div>
                             <h3 className="text-xl font-bold mb-3">Email</h3>
                             <p className="text-gray-300 text-sm mb-2">General Inquiries</p>
-                            <p className="text-white font-semibold text-sm">info@nedikahope.edu</p>
+                            <p className="text-white font-semibold text-sm">nedikaschools@gmail.com</p>
                             <p className="text-gray-300 text-sm mt-3 mb-2">Admissions</p>
-                            <p className="text-white font-semibold text-sm">admissions@nedikahope.edu</p>
+                            <p className="text-white font-semibold text-sm">nedikaschools@gmail.com</p>
                         </div>
                         <div className="bg-navy text-white p-6 rounded-xl text-center hover:shadow-xl transition-shadow">
                             <div className="bg-gold w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -102,7 +102,7 @@ export default function ContactPage() {
                                             type="email"
                                             id="email"
                                             className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-navy focus:border-transparent"
-                                            placeholder="your.email@example.com"
+                                            placeholder="your.email@gmail.com"
                                             required
                                         />
                                     </div>
@@ -117,7 +117,7 @@ export default function ContactPage() {
                                             type="tel"
                                             id="phone"
                                             className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-navy focus:border-transparent"
-                                            placeholder="+233 XX XXX XXXX"
+                                            placeholder="+254 XXX XXX XXX"
                                         />
                                     </div>
                                 </div>
@@ -250,11 +250,11 @@ export default function ContactPage() {
                             <div className="space-y-2 text-gray-700">
                                 <p className="flex items-center">
                                     <Phone className="w-4 h-4 mr-2 text-navy" />
-                                    <span className="text-sm">+233 XX XXX XXXX</span>
+                                    <span className="text-sm">+254 11 5959 538</span>
                                 </p>
                                 <p className="flex items-center">
                                     <Mail className="w-4 h-4 mr-2 text-navy" />
-                                    <span className="text-sm">admissions@nedikahope.edu</span>
+                                    <span className="text-sm">nedikaschools@gmail.com</span>
                                 </p>
                             </div>
                         </div>
@@ -263,11 +263,11 @@ export default function ContactPage() {
                             <div className="space-y-2 text-gray-700">
                                 <p className="flex items-center">
                                     <Phone className="w-4 h-4 mr-2 text-navy" />
-                                    <span className="text-sm">+233 XX XXX XXXX</span>
+                                    <span className="text-sm">+254 793 772 662</span>
                                 </p>
                                 <p className="flex items-center">
                                     <Mail className="w-4 h-4 mr-2 text-navy" />
-                                    <span className="text-sm">academy@nedikahope.edu</span>
+                                    <span className="text-sm">nedikaschools@gmail.com</span>
                                 </p>
                             </div>
                         </div>
@@ -276,11 +276,11 @@ export default function ContactPage() {
                             <div className="space-y-2 text-gray-700">
                                 <p className="flex items-center">
                                     <Phone className="w-4 h-4 mr-2 text-maroon" />
-                                    <span className="text-sm">+233 XX XXX XXXX</span>
+                                    <span className="text-sm">+254 793 772 662</span>
                                 </p>
                                 <p className="flex items-center">
                                     <Mail className="w-4 h-4 mr-2 text-maroon" />
-                                    <span className="text-sm">jss@nedikahope.edu</span>
+                                    <span className="text-sm">nedikaschools@gmail.com</span>
                                 </p>
                             </div>
                         </div>
@@ -289,11 +289,11 @@ export default function ContactPage() {
                             <div className="space-y-2 text-gray-700">
                                 <p className="flex items-center">
                                     <Phone className="w-4 h-4 mr-2 text-royal-blue" />
-                                    <span className="text-sm">+233 XX XXX XXXX</span>
+                                    <span className="text-sm">+254 793 772 662</span>
                                 </p>
                                 <p className="flex items-center">
                                     <Mail className="w-4 h-4 mr-2 text-royal-blue" />
-                                    <span className="text-sm">highschool@nedikahope.edu</span>
+                                    <span className="text-sm">nedikaschools@gmail.com</span>
                                 </p>
                             </div>
                         </div>
@@ -302,11 +302,11 @@ export default function ContactPage() {
                             <div className="space-y-2 text-gray-700">
                                 <p className="flex items-center">
                                     <Phone className="w-4 h-4 mr-2 text-navy" />
-                                    <span className="text-sm">+233 XX XXX XXXX</span>
+                                    <span className="text-sm">+254 11 5959 538</span>
                                 </p>
                                 <p className="flex items-center">
                                     <Mail className="w-4 h-4 mr-2 text-navy" />
-                                    <span className="text-sm">finance@nedikahope.edu</span>
+                                    <span className="text-sm">nedikaschools@gmail.com</span>
                                 </p>
                             </div>
                         </div>
@@ -315,11 +315,11 @@ export default function ContactPage() {
                             <div className="space-y-2 text-gray-700">
                                 <p className="flex items-center">
                                     <Phone className="w-4 h-4 mr-2 text-navy" />
-                                    <span className="text-sm">+233 XX XXX XXXX</span>
+                                    <span className="text-sm">+254 793 772 662</span>
                                 </p>
                                 <p className="flex items-center">
                                     <Mail className="w-4 h-4 mr-2 text-navy" />
-                                    <span className="text-sm">transport@nedikahope.edu</span>
+                                    <span className="text-sm">nedikaschools@gmail.com</span>
                                 </p>
                             </div>
                         </div>
@@ -334,7 +334,7 @@ export default function ContactPage() {
                     <div className="grid md:grid-cols-2 gap-12 items-center">
                         <div className="relative h-[400px] rounded-xl overflow-hidden shadow-xl bg-gray-300 flex items-center justify-center">
                             <Image 
-                                src="/playground.jpg"
+                                src="/unnamed (1).png"
                                 alt="School Campus Location"
                                 fill
                                 className="object-cover"
@@ -392,7 +392,7 @@ export default function ContactPage() {
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
                         <a 
-                            href="tel:+233XXXXXXXXX" 
+                            href="tel:+254793772662" 
                             className="bg-gold hover:bg-gold-hover text-navy px-8 py-4 rounded-full font-bold text-lg transition-transform transform hover:scale-105 shadow-lg"
                         >
                             Call Us Now

@@ -184,7 +184,7 @@ export default function HighSchoolPage() {
                         </div>
                         <div className="relative h-[300px] rounded-xl overflow-hidden shadow-xl">
                             <Image 
-                                src="/slide playground.png"
+                                src="/unnamed (2).jpg"
                                 alt="High School Campus"
                                 fill
                                 className="object-cover"

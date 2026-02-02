@@ -9,7 +9,7 @@ export default function JuniorSecondaryPage() {
             <section className="relative h-[60vh] bg-maroon">
                 <div className="absolute inset-0">
                     <Image 
-                        src="/kids watching.jpg"
+                        src="/unnamed (1).jpg"
                         alt="Junior Secondary Students"
                         fill
                         className="object-cover opacity-40"
@@ -85,7 +85,7 @@ export default function JuniorSecondaryPage() {
                         </div>
                         <div className="relative h-[500px] rounded-xl overflow-hidden shadow-xl">
                             <Image 
-                                src="/computer lab.png"
+                                src="/unnamed.png"
                                 alt="Junior Secondary Computer Lab"
                                 fill
                                 className="object-cover"
@@ -297,7 +297,7 @@ export default function JuniorSecondaryPage() {
                 <div className="max-w-4xl mx-auto px-4 text-center">
                     <div className="relative h-[300px] rounded-xl overflow-hidden shadow-xl mb-8">
                         <Image 
-                            src="/school van.png"
+                            src="/unnamed.jpg"
                             alt="Junior Secondary School Transport"
                             fill
                             className="object-cover"

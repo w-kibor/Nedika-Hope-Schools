@@ -481,11 +481,11 @@ export default function AdmissionsPage() {
                                 <div className="space-y-2">
                                     <div className="flex items-center">
                                         <Phone className="w-5 h-5 text-navy mr-2" />
-                                        <span className="text-navy font-semibold">+233 XX XXX XXXX</span>
+                                        <span className="text-navy font-semibold">+254 793 772 662</span>
                                     </div>
                                     <div className="flex items-center">
                                         <Mail className="w-5 h-5 text-navy mr-2" />
-                                        <span className="text-navy font-semibold">tours@nedikahope.edu</span>
+                                        <span className="text-navy font-semibold">nedikaschools@gmail.com</span>
                                     </div>
                                 </div>
                             </div>
@@ -567,16 +567,15 @@ export default function AdmissionsPage() {
                                 <Phone className="w-8 h-8 text-navy" />
                             </div>
                             <h3 className="text-xl font-bold mb-2">Phone</h3>
-                            <p className="text-gray-300">+233 XX XXX XXXX</p>
-                            <p className="text-gray-300">+233 XX XXX XXXX</p>
+                            <p className="text-gray-300">+254 793 772 662</p>
+                            <p className="text-gray-300">+254 11 5959 538</p>
                         </div>
                         <div className="text-center">
                             <div className="bg-gold w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                                 <Mail className="w-8 h-8 text-navy" />
                             </div>
                             <h3 className="text-xl font-bold mb-2">Email</h3>
-                            <p className="text-gray-300">admissions@nedikahope.edu</p>
-                            <p className="text-gray-300">info@nedikahope.edu</p>
+                            <p className="text-gray-300">nedikaschools@gmail.com</p>
                         </div>
                         <div className="text-center">
                             <div className="bg-gold w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
